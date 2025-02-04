@@ -4,7 +4,7 @@
   min-width: 1100px;
   margin: auto;
   font-family: Arial, sans-serif;
-  font-size: 17px;
+  font-size: 16px;
   line-height: 20px;
 }
 
@@ -49,13 +49,14 @@
 .header__content {
   /* Agrega las propiedades flex aquí */
   display: flex;
+  justify-content: space-between;
 }
 
 .header__title {
   font-size: 62px;
   line-height: 76px;
   font-weight: 500;
-  max-width: 636px;
+  max-width: 635px;
   margin-top: 128px;
 }
 
