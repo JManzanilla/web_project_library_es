@@ -91,12 +91,12 @@
   color: #838383;
 }
 .content {
-  background-image: url("../images/staff_picks_background.jpg");
-  background-repeat: no-repeat;
-  background-size: 100%;
 }
 .staff {
   padding-top: 100px;
+  background-image: url("../images/staff_picks_background.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 }
 
 .staff__title {
@@ -121,21 +121,23 @@
 .staff__cards {
   max-width: 760px;
   text-align: center;
-  list-style: none;
+  list-style-type: none;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   row-gap: 40px;
   column-gap: 40px;
-  margin: 68px auto;
+  margin-top: 68px;
+  margin: auto;
+  padding-left: 0;
 }
 .card {
   background-color: #fff;
   border-radius: 6px;
   padding: 32px 40px 20px 32px;
   box-sizing: border-box;
-  max-width: 360px;
-  max-height: 420px;
+  width: 360px;
+  height: 420px;
 }
 
 .card__content {
@@ -161,6 +163,7 @@
 
 .card__footer {
   margin: 0;
+  margin-top: auto;
   font-size: 14px;
   line-height: 20px;
   color: #838383;
