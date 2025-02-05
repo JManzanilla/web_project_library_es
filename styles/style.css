@@ -393,7 +393,7 @@
   color: #ffffff;
   text-decoration: none;
   display: flex;
-  align-items: flex-start;
+  align-items: flex-end;
   gap: 10px;
 }
 .footer__social-icon {
