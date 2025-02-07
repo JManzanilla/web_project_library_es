@@ -358,8 +358,7 @@
 
 .footer__columns {
   display: flex;
-  margin-left: 80px;
-  margin-right: 80px;
+  margin: 0;
 }
 
 .footer__column_content_hours {
@@ -370,6 +369,7 @@
   text-decoration: none;
   color: #ffffff;
   margin-left: 80px;
+
   margin-top: 0;
 }
 .footer__logo {
@@ -403,7 +403,4 @@
 
 .footer__copyright {
   margin-top: 100px;
-  margin-bottom: 60px;
-  margin-left: 80px;
-  margin-right: 80px;
 }
